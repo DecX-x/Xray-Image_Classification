@@ -25,7 +25,7 @@ if upload is not None:
     y = model.predict(x)
     ans=np.argmax(y,axis=1)
     if(ans==0):
-      st.title('COVID')
+      st.title('Positive COVID-19')
     elif(ans==1):
       st.title('Healthy')
     else:
