@@ -3,7 +3,7 @@ import tensorflow as tf
  
 
 import numpy as np
-from PIL import Image # Strreamlit works with PIL library very easily for Images
+from PIL import Image
 import cv2
  
 
